@@ -2,6 +2,12 @@ import java.util.Arrays;
 
 public class QuickSort {
 
+    // Public method to allow sorting from Main.java
+    public void sort(int[] arr) {
+        quickSort(arr, 0, arr.length - 1);
+    }
+
+
     // Main function that implements QuickSort
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
