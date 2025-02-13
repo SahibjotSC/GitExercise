@@ -23,4 +23,13 @@ int[] arr = {64, 25, 12, 22, 11};
 SelectionSort selectionSort = new SelectionSort(numbers);
 selectionSort.SortArray();
 ```
+### Insertion Sort:
+-  Sorting algorithm that puts together the final sorted array element by element
+-  Loops through an array and extracts one component from the beginning data to insert it into the right place
 
+### How to Use:
+```java
+int[] numbers = { 23, 3, 15, 6, 31, 10, 1 };
+InsertionSort insertionSort = new InsertionSort(numbers);
+insertionSort.SortArray();
+```
