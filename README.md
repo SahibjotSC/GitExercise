@@ -11,4 +11,16 @@ The project implements various sorting algorithms. The **QuickSort** algorithm h
 ```java
 int[] arr = {10, 7, 8, 9, 1, 5};
 QuickSort.quickSort(arr, 0, arr.length - 1);
-Bubble Sort
+```
+
+### Selection Sort
+- Selection Sort is an in-place comparison sorting algorithm.
+- It divides the input array into two subarrays: a sorted subarray and an unsorted subarray.
+
+### How to Use:
+```java
+int[] arr = {64, 25, 12, 22, 11};
+SelectionSort selectionSort = new SelectionSort(numbers);
+selectionSort.SortArray();
+```
+

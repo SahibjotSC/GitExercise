@@ -19,5 +19,11 @@ public class Main
         bubbleSort.SortArray();
         System.out.println("Sorted with Bubble Sort: ");
         bubbleSort.printArray();
+
+        // Create SelectionSort instance and sort the array
+        SelectionSort selectionSort = new SelectionSort(numbers);
+        selectionSort.SortArray();
+        System.out.println("Sorted with Selection Sort: ");
+        selectionSort.printArray();
     }
 }
